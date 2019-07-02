@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="FW_Testsuit" parallel="false"> 
+	<test name="FW" preserve-order="true"> <!-- preserve-order=true用于设置test方法按顺序执行 -->
+		<classes>
+			<!--class name="dp.devweb.FW.testcases.Testcase1_3_1_1_PacketFilterPolicyAction" />	
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_2_PacketFilterPolicySourceDomain" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_3_PacketFilterPolicyDerstDomain" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_4_PacketFilterPolicySourceAddress" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_5_PacketFilterPolicyDestAddress" /-->
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_6_PacketFilterPolicyService" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_1_7_PacketFilterPolicyState" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_3_9_SourceNATUseOutInterfaceAddr" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_3_10_SourceNATOutIntf" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_3_11_SourceNATSourceIP" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_3_12_SourceNATDesIp" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_3_13_SourceNATService" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_14_DestNAT" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_15_DestNATinInterf" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_16_DestNATPublicIP" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_17_DestNATService" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_18_DestNATInAddr" />
+			<class name="dp.devweb.FW.testcases.Testcase1_3_4_20_DestNatState" />		
+		</classes>
+	</test>
+</suite>
+
